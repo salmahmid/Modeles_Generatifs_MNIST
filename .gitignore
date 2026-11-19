@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Jupyter et caches
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.cache/
+*.tmp
+*~
+
+# macOS
+.DS_Store
+
+# Données MNIST téléchargées (reproductibles via torchvision)
+data/*
+!data/.gitkeep
+
+# Notebooks et copie du cours conservés localement, hors dépôt
+archives/
+Part 2-*.pdf
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+secrets.json
+
+# Journaux
+*.log

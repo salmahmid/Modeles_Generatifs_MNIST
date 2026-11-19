@@ -1,0 +1,25 @@
+[project]
+name = "modeles-generatifs-mnist"
+version = "0.1.0"
+description = "TP : création, entraînement, évaluation et exploration de modèles génératifs PyTorch sur MNIST."
+readme = "README.md"
+authors = [
+    { name = "salmahmid", email = "salmahmid2023@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "torch>=2.15.0",
+    "torcheval>=0.0.7",
+    "torchvision>=0.29.2",
+]
+
+[project.scripts]
+modeles-generatifs-mnist = "modeles_generatifs_mnist:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"

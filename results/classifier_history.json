@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "model": "Classifier",
+    "architecture": "Flatten-Linear(784,128)-ReLU-Linear(128,10)",
+    "epochs": 3,
+    "lr": 0.001,
+    "batch_size": 128,
+    "seed": 42
+  },
+  "loss": [
+    0.4107425326604579,
+    0.19213298581905966,
+    0.13918292281756015
+  ],
+  "duree_s": 5.253243374987505,
+  "recharge": false
+}
